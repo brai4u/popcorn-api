@@ -1,6 +1,6 @@
 module.exports = {
 	master: true,
-	port: 27017,
+	port: 80,
 	workers: 2,
 	scrapeTime: '00 00 3,15 * * *',
 	scrapeTtl: 1000 * 60 * 60 * 10,
